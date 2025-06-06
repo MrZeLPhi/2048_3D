@@ -1,8 +1,13 @@
 
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BackgroundttttAudio : MonoBehaviour
 {
+    public Slider m_slider;
+    public Slider SFX_slider; 
+    public Slider Butten_slider;
+    
     public AudioClip musicClip;
     public float musicVolume;
     private AudioSource musicAudioSource;
